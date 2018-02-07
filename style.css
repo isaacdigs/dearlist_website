@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+
+/* Navbar */
+
+#logoimg {
+  width: 300px;
+  color: #002147;
+  position: relative;
+  margin:0;
+  filter: invert(100%);
+}
+
+
+/***********************************************************************
+*  OPAQUE NAVBAR SECTION
+***********************************************************************/
+.opaque-navbar {
+    background-color: rgba(0,0,0,0);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 60px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+    z-index: 9999;
+}
+
+.opaque-navbar.opaque {
+    background-color: #002147;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+
+ul.dropdown-menu {
+    background-color: black;
+}
+
+
+@media (max-width: 992px) {
+
+  .opaque-navbar {
+    background-color: rgba(0,0,0,0);
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+
+}
+
+.navbar {
+  align-items: center;
+  padding-top: 8px;
+}
+
+.navbar-brand {
+  position: absolute;
+  align-items: center;
+}
+
+
+/* Carousel */
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 590px){
+  .carousel-caption {
+    position: relative;
+  }
+  #logoimg {
+    width: 50vw;
+  }
+
+}
+
+.carousel-indicators li {
+    border-radius: 12px;
+    max-width: 12px;
+    height: 12px;
+    background-color: #404040;
+    border:
+}
+
+.btn-dwblue {
+  background-color: #002147;
+  color: #fff;
+}
+
+.btn-dwwhite {
+  background-color: #fff;
+  color: #002147;
+}
+
+#imgContainer1 {
+  background: url('/images/dearcoffee.jpg') 50% 50% no-repeat;
+  background-size: 120%;
+  height: 30vw;
+}
+
+#imgContainer2 {
+  background: url('/images/bookshelf.jpeg') 50% 50% no-repeat;
+  background-size: 120%;
+  height: 30vw;
+}
+
+#imgContainer3 {
+  background: url('/images/logoblack.png') 50% 50% no-repeat;
+  background-size: 150%;
+  height: 30vw;
+}
+
+@media only screen and (max-width: 768px) {
+  #imgContainer1,
+  #imgContainer2,
+  #imgContainer3 {
+    margin:8px 0 23px 0;
+  }
+}
+
+body {
+  padding: 0; !important;
+}
+
+.fontBlue {
+  color: #002147;
+}
+
+.fontWhite {
+  color: #FFF;
+}
+
+footer {
+
+
+}
+
+footer p {
+
+}
