@@ -50,13 +50,12 @@ ul.dropdown-menu {
 }
 
 .navbar {
-  align-items: center;
   padding-top: 8px;
 }
 
 .navbar-brand {
-  position: absolute;
-  align-items: center;
+
+  margin: auto;
 }
 
 
@@ -80,11 +79,20 @@ body {
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
+  padding: none;
 }
 /* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
+.carousel-container {
+  min-width: 80vw;
 }
+
+.container-caption {
+  align-items: center;
+}
+
+
+
+
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
@@ -154,16 +162,10 @@ body {
   }
 }
 
-.carousel-caption {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 @media only screen and (max-width: 590px){
   .carousel-caption {
-    position: relative;
+
   }
   #logoimg {
     width: 50vw;
