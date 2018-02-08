@@ -70,6 +70,7 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
+  background-color: #f4f4f4;
 }
 
 
@@ -83,7 +84,6 @@ body {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-  bottom: 3rem;
 }
 
 /* Declare heights because of positioning of img element */
@@ -155,7 +155,7 @@ body {
 }
 
 .carousel-caption {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -190,19 +190,19 @@ body {
 }
 
 #imgContainer1 {
-  background: url('/images/dearcoffee.jpg') 50% 50% no-repeat;
+  background: url('images/dearcoffee.jpg') 50% 50% no-repeat;
   background-size: 120%;
   height: 30vw;
 }
 
 #imgContainer2 {
-  background: url('/images/bookshelf.jpeg') 50% 50% no-repeat;
+  background: url('images/bookshelf.jpeg') 50% 50% no-repeat;
   background-size: 120%;
   height: 30vw;
 }
 
 #imgContainer3 {
-  background: url('/images/logoblack.png') 50% 50% no-repeat;
+  background: url('images/logoblack.png') 50% 50% no-repeat;
   background-size: 150%;
   height: 30vw;
 }
