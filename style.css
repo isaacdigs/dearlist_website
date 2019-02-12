@@ -164,9 +164,7 @@ body {
 
 
 @media only screen and (max-width: 590px){
-  .carousel-caption {
 
-  }
   #logoimg {
     width: 50vw;
   }
@@ -178,7 +176,7 @@ body {
     max-width: 12px;
     height: 12px;
     background-color: #404040;
-    border:
+    border: none;
 }
 
 .btn-dwblue {
@@ -218,7 +216,7 @@ body {
 }
 
 body {
-  padding: 0; !important;
+  padding: 0 !important;
 }
 
 .fontBlue {
@@ -227,13 +225,4 @@ body {
 
 .fontWhite {
   color: #FFF;
-}
-
-footer {
-
-
-}
-
-footer p {
-
 }
